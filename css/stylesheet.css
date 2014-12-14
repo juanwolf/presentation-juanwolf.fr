@@ -83,6 +83,7 @@ ul {
   font-size: 35px;
   text-decoration: none; }
 #sources a:hover {
+    cursor: pointer;
   text-decoration: underline; }
 
 
