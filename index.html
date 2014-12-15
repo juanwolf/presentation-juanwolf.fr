@@ -72,7 +72,7 @@
     
      <div id="home-page-responsive-mobile" class="step inside-chrome" data-x="-8000" data-y="-13000" data-scale="1" >
         <p class="title">Home Page - mobile</p>
-        <img width="50%" height="auto" src="img/home-page-mobile.PNG" />
+        <img width="50%" height="auto" src="img/home-page-mobile.png" />
     </div>
     
     <div id="home-page-responsive-mobile-menu" class="step inside-chrome" data-x="-8000" data-y="-16000" data-scale="1" >
@@ -107,8 +107,8 @@
             <ul  id="algo">
             <li>Read the cookie (if there's one) to extract the language</li>
             <li>if not : detect Accept-Language in HTTP header</li>
-            <li>If the language is available in the website redirect him to the good version (english if not)</li>
-            <li>Create a cookie if he changed of language</li></ul>
+            <li>If the desired language is available, the website will redirect the user to the appropriate version (english if not)</li>
+            <li>Create a cookie if the user changed the language</li></ul>
          </ul>
     </div>
     
@@ -132,6 +132,23 @@
     <div id="blog-post" class="step inside-chrome" data-x="5000" data-y="-18000" data-scale="1">
         <p class="title">Post</p>
         <img width="100%" height="auto" src="img/blog-post.PNG">
+    </div>
+    
+    <div id="chat" class="step inside-chrome" data-x="5000" data-y="-22000" data-scale="1">
+        <p class="title">Chat</p>
+       <ul><li>Easier to communicate for technical problems</li>
+        <li>Real time</li>
+        <li>Using node.js</li></ul>
+    </div>
+    
+    <div id="chat-client" class="step inside-chrome" data-x="5000" data-y="-22000" data-scale="1">
+        <p class="title">Client - Chat</p>
+        <object type="text/html" data="http://juanwolf.fr:8086?lang=en"></object>
+    </div>
+    
+     <div id="chat-admin" class="step inside-chrome" data-x="5000" data-y="-25000" data-scale="1">
+        <p class="title">Administration - Chat</p>
+        <object type="text/html" data="http://juanwolf.fr:8086/admin"></object>
     </div>
 
     <div id="analytics" class="step inside-chrome" data-x="15000" data-y="-15000" data-scale="1">
@@ -176,10 +193,6 @@
         <p> Any questions ?</p>
     </div>
     
-    <div class="bonus step" data-x="50000" data-y="0000" data-scale="1">
-        <p class="title">Bonus !</p>
-        <object type="text/html" data="http://juanwolf.fr:8086/admin"></object>
-    </div>
 </div>
 <script src="js/lib/impress.js"></script>
 <script>impress().init();</script>
